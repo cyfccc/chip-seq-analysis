@@ -17,6 +17,23 @@ identify a mystery factor X.
 
 1. Convert bedGraph to bigWig (for UCSC track display)
 
+## Installation
+
+Need to install some pacakges:
+
+### On a mac
+
+```bash
+$ brew install bowtie2 samtools kent-tools meme bedtools
+$ pip install macs2
+```
+
+### On tesla
+
+```bash
+$ module load bowtie2 samtools ucsc meme bedtools
+```
+
 ## Workflow
 
 1. Align FASTQ data to the human genome with bowtie2
